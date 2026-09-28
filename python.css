@@ -1,0 +1,135 @@
+.style{
+      
+    }
+    .pandu-button{
+        padding-right: 50px;
+        padding-left:50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color:blue;
+        color:  white;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+        margin-left: 10px;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        transition:opacity 0.15s;
+        
+    }
+    .satish-button{
+        padding-right: 50px;
+        padding-left:50px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: white;
+        color:lightgreen;
+        border: solid;
+        cursor: pointer;
+        margin-left: 10px;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .akshay-button{
+        padding-right: 50px;
+        padding-left:50px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: red;
+        color: black;
+        cursor: pointer;
+        margin-left: 10px;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        margin-top: 10px;
+    }
+    .pandu-button:active{
+        background-color: green;
+            opacity:0.5;
+    }
+        .pandu-button:hover{
+        opacity:0.8;
+    }
+    .satish-button:active{
+     background-color: black;
+    }
+    .akshay-button:active{
+                opacity:0.9;
+        box-shadow :5px 5px 10px rgba(0,0,0,0.15);
+    }    
+    .s1{
+        text-align: center;
+        font-family: Arial;
+        font-size: 25px;
+        font-weight:500px;
+        font-style: normal;
+        margin-top:0px;
+        margin-bottom: 0px;
+    }  
+    .s{
+        text-align: center;
+        font-family: Arial;
+        font-size: 12pxpx;
+        font-weight:500px;
+        font-style: normal;
+        line-height: 10px;
+             color: orange;
+             margin-top: 0px;
+             margin-bottom: 15px;
+    }
+    .s3{
+        text-align: center;
+        font-family: Arial;
+        font-size: 25px;
+        font-weight:500px;
+        font-style: normal;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    .s2{
+         text-align: center;
+        font-family: Arial;
+        font-size: 40px;
+        font-style: bold;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .images{
+        width: 450px;
+        margin-left: 400px;
+    }
+    .satish-video{
+        text-align: center;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 500px;
+
+ }
+    .images-2{
+         width: 350px;
+        margin-left: 450px;
+        cursor: pointer;
+    }
+    .satish-clg{
+        text-align: center;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 500px;
+    }
+    .akshay-phone{
+        background-color: red;
+        color:white;
+        text-align: center;
+        padding-top:10px;
+        padding-bottom:10px;
+        cursor: pointer; 
+    }
+    .cow{
+        padding-left: 20px;
+        font-family: Arial;
+        text-decoration: underline;
+    }

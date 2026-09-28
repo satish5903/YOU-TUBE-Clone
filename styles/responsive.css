@@ -1,0 +1,132 @@
+/* ===== Responsive styles (media queries) =====
+   Desktop (default)  : 3 video columns, side bar on the left
+   >= 1600px          : 4 video columns
+   <= 1024px (laptop) : 2 video columns
+   <= 768px  (tablet) : tighter header, smaller gaps
+   <= 600px  (phone)  : 1 video column, side bar moves to bottom
+   <= 400px  (small)  : hides voice button & extra icons
+*/
+
+@media (min-width: 1600px) {
+    .video-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .middle-section {
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-left: 84px;
+        padding-right: 12px;
+    }
+    .hamburger-menu {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .middle-section {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .right-section {
+        width: 150px;
+        margin-right: 12px;
+    }
+    .upload-icon {
+        display: none;
+    }
+    .video-grid {
+        column-gap: 12px;
+        row-gap: 28px;
+    }
+    .video-title {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding-top: 68px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 72px;
+    }
+    .video-grid {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .thumbnail {
+        border-radius: 0;
+    }
+    .video-info-grid {
+        padding: 0 12px;
+    }
+
+    /* side bar becomes a bottom navigation bar */
+    .side-bar {
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 56px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 1px solid rgb(226, 219, 219);
+    }
+    .side-bar-link {
+        flex: 1;
+        height: 56px;
+        padding-top: 0;
+    }
+    .side-bar-link img {
+        margin-bottom: 2px;
+    }
+    .side-bar-link div {
+        font-size: 9px;
+        white-space: nowrap;
+    }
+
+    .hamburger-menu {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .you-tube-apps {
+        display: none;
+    }
+    .right-section {
+        width: auto;
+        gap: 16px;
+        margin-right: 12px;
+    }
+    .middle-section {
+        margin-left: 6px;
+        margin-right: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hamburger-menu,
+    .voice-search-button {
+        display: none;
+    }
+    .left-section {
+        padding-left: 12px;
+    }
+    .you-tube {
+        height: 20px;
+    }
+    .Search-button {
+        margin-right: 0;
+        width: 44px;
+    }
+}
